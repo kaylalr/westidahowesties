@@ -1,10 +1,18 @@
-<!-- HTML - File Name: "index.html" -->
 <!doctype html>
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115455287-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115455287-1');
+</script>
     <meta charset="utf-8">
-    <title>West Idaho Westies</title>
+    <title>West Idaho Westies | Home</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
@@ -12,7 +20,7 @@
     <div id="content">
         <header class="header">
             <!--            <h1 id="title">Dry Oar Boating</h1>-->
-            <div class="logo"><img src="puppy1Cropped.jpg" alt="Puppy"></div>
+            <div class="logo"><img src="westIdahoWesties%20Logo%201.jpg"></div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -20,6 +28,7 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
+<!--
                     <li>
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -29,40 +38,43 @@
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </li>
+-->
                 </ul>
             </nav>
+                <img id="banner" src="puppiesBannerCropped.jpg" alt="Puppies Banner">
         </header>
         <main>
-            <div id="banner">
-                <img src="puppiesBannerCropped.jpg" alt="Puppies Banner">
-            </div>
             <section id="first-section">
                 <div class="first-section-words" class="leftcol">
                     <a href="puppies.html">
                         <h2>Puppies!</h2>
-                        <p>This is going to be a paragraph about the puppies and if you click on it, it will take you to the puppies page of the website.</p>
+                        <p>Want to know more about the dogs we are breeding?  Well, you're in luck!  You can see all about them and their personalities on the "Puppies" page.</p>
                     </a>
                 </div>
                 <div class="rightcol">
+                    <section class="home-pictures">
                     <img src="puppy1.jpg" alt="Puppy">
+                    </section>
                 </div>
             </section>
             <section id="second-section">
                 <!-- second content peice -->
                 <div class="leftcol">
+                    <section class="home-pictures">
                     <img src="puppy2.jpg" alt="Sleeping Puppy">
+                    </section>
                 </div>
                 <div class="second-section-words" class="rightcol">
                     <a href="blog.html">
                         <h2>Blog</h2>
-                        <p class="rush-p">This will be a paragraph about the blog. Something about keeping up with the puppies.</p>
+                        <p>We have a blog so you can keep up with the puppies!  We post updates in their lives and put in cute pictures so everyone can get their puppy fill!</p>
                     </a>
                 </div>
             </section>
             <section class="bottom-section">
-                <a href="contact.html">
-                    <h2>Contact Us!</h2>
-                    <p>Paragraph with something about contacting us.</p>
+                <a href="contact.html"
+                   ><h2>Contact Us!</h2>
+                    <p>Want to buy a puppy or have a question? Let us know!</p>
                 </a>
             </section>
         </main>
