@@ -10,6 +10,10 @@
         background-color: #403D44;
     }
 
+    .padding {
+        padding-left: 20px;
+    }
+
     img {
         max-width: 100%;
     }
@@ -44,9 +48,10 @@
         position: relative;
     }
 
-#banner{
-    width: 100%;
-}
+    #banner {
+        width: 100%;
+    }
+
     #title {
         margin-bottom: .2em;
     }
@@ -130,7 +135,7 @@
         padding: 1.3em;
     }
 
-/*  This didn't work.  I was trying to get the second puppy picture smaller.
+    /*  This didn't work.  I was trying to get the second puppy picture smaller.
     .home-pictures {
         max-height: 400px;
     }
